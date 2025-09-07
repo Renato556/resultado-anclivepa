@@ -24,7 +24,6 @@ def check_anclivepa():
 
     if url_entrevistas in response.text:
         print('Resultado da primeira etapa ainda presente')
-        send_ntfy_notification() # Remover
     else:
         send_ntfy_notification()
 
